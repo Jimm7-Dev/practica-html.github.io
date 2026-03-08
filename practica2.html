@@ -1,0 +1,60 @@
+<style>
+
+.contenedor-botones {
+  display: flex;        /* los pone en horizontal */
+  gap: 15px;            /* espacio entre botones */
+}
+
+.boton {
+ background: linear-gradient(135deg, #ec0351, #ff09c1);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.boton:hover {
+ background: linear-gradient(135deg, #ff0000, #ffae00);
+}
+
+</style>
+
+<div class="contenedor-botones" >
+<a href="practica.html">
+  <button class="boton" >Inicio</button>
+</a>
+  <button class="boton">Servicios</button>
+
+  <button class="boton">Contacto</button>
+<button class="boton">Clases</button>
+</div>
+
+<div style="display:flex; justify-content:center;">
+  <iframe src="practica.html" title="description" width="1000px" height="400px"></iframe>
+</div>
+<form action="/action_page.php">
+  <fieldset>
+    <legend> datos personales</legend>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+<a href="exel.pdf" download>
+  <button>📥 Descargar Excel</button>
+</a>
+  <div>
+    
+<a href="exel.pdf" download style="text-decoration: none; color: black;">
+  <img src="pdf.jpg" alt="Descargar Excel" width="15" height="15">
+ descargar
+</a>
+</div>
+
+<p translate="yes" lang="es">Don't translate this!</p>
+
+<p>This can be translated to any language.</p>
